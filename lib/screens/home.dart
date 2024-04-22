@@ -4,7 +4,6 @@ import '../model/color_app.dart';
 import '../model/data_information/product_info.dart';
 import '../model/size_app.dart';
 import '../screens/product.dart';
-import '../screens/category_page.dart';
 import '../widget/app_bar_search.dart';
 import '../widget/product_item.dart';
 import '../widget/text.dart';
@@ -43,66 +42,66 @@ class _HomeState extends State<Home> {
                   height: SizeApp.height * 0.8,
                   child: SingleChildScrollView(
                     child: Column(children: [
-                      categories(
-                          context: context,
-                          classification: categoryNames[0],
-                          image: 'assets/images/logo.png',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      CategoryPage(title: categoryNames[0]),
-                                ));
-                          }),
-                      categories(
-                          context: context,
-                          classification: categoryNames[1],
-                          image: 'assets/images/logo.png',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      CategoryPage(title: categoryNames[1]),
-                                ));
-                          }),
-                      categories(
-                          context: context,
-                          classification: categoryNames[2],
-                          image: 'assets/images/logo.png',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      CategoryPage(title: categoryNames[2]),
-                                ));
-                          }),
-                      categories(
-                          context: context,
-                          classification: categoryNames[3],
-                          image: 'assets/images/logo.png',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      CategoryPage(title: categoryNames[3]),
-                                ));
-                          }),
-                      categories(
-                          context: context,
-                          classification: categoryNames[4],
-                          image: 'assets/images/logo.png',
-                          onTap: () {
-                            Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) =>
-                                      CategoryPage(title: categoryNames[4]),
-                                ));
-                          }),
+                      // categories(
+                      //     context: context,
+                      //     classification: categoryNames[0],
+                      //     image: 'assets/images/logo.png',
+                      //     onTap: () {
+                      //       Navigator.push(
+                      //           context,
+                      //           MaterialPageRoute(
+                      //             builder: (context) =>
+                      //                 CategoryPage(title: categoryNames[0]),
+                      //           ));
+                      //     }),
+                      // categories(
+                      //     context: context,
+                      //     classification: categoryNames[1],
+                      //     image: 'assets/images/logo.png',
+                      //     onTap: () {
+                      //       Navigator.push(
+                      //           context,
+                      //           MaterialPageRoute(
+                      //             builder: (context) =>
+                      //                 CategoryPage(title: categoryNames[1]),
+                      //           ));
+                      //     }),
+                      // categories(
+                      //     context: context,
+                      //     classification: categoryNames[2],
+                      //     image: 'assets/images/logo.png',
+                      //     onTap: () {
+                      //       Navigator.push(
+                      //           context,
+                      //           MaterialPageRoute(
+                      //             builder: (context) =>
+                      //                 CategoryPage(title: categoryNames[2]),
+                      //           ));
+                      //     }),
+                      // categories(
+                      //     context: context,
+                      //     classification: categoryNames[3],
+                      //     image: 'assets/images/logo.png',
+                      //     onTap: () {
+                      //       Navigator.push(
+                      //           context,
+                      //           MaterialPageRoute(
+                      //             builder: (context) =>
+                      //                 CategoryPage(title: categoryNames[3]),
+                      //           ));
+                      //     }),
+                      // categories(
+                      //     context: context,
+                      //     classification: categoryNames[4],
+                      //     image: 'assets/images/logo.png',
+                      //     onTap: () {
+                      //       Navigator.push(
+                      //           context,
+                      //           MaterialPageRoute(
+                      //             builder: (context) =>
+                      //                 CategoryPage(title: categoryNames[4]),
+                      //           ));
+                      //     }),
                     ]),
                   ),
                 ),

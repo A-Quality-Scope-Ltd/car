@@ -1,4 +1,4 @@
-package com.app.car
+package com.beycar.app
 
 import io.flutter.embedding.android.FlutterActivity
 
